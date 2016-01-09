@@ -2,7 +2,7 @@
   "name": "@f/empty-element",
   "description": "Remove all of a DOM element&#x27;s children",
   "repository": "git://github.com/micro-js/empty-element.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
