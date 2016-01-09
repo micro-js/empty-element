@@ -1,0 +1,16 @@
+{
+  "name": "@f/empty-element",
+  "description": "Remove all of a DOM element&#x27;s children",
+  "repository": "git://github.com/micro-js/empty-element.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "hihat": "^2.6.1",
+    "tape": "^4.2.2"
+  }
+}
