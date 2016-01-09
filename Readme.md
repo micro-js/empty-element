@@ -15,17 +15,19 @@ Remove all of a DOM element&#x27;s children
 ## Usage
 
 ```js
-var emptyElement = require('@f/empty-element')
+var empty = require('@f/empty-element')
 
+empty(document.body)
+document.body.children.length === 0
 ```
 
 ## API
 
-### emptyElement(arg)
+### empty(node)
 
-- `arg` -
+- `node` - The DOM node you want to empty
 
-**Returns:**
+**Returns:** `node` (the node you passed in)
 
 ## License
 
